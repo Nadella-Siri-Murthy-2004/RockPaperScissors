@@ -1,0 +1,91 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    text-align : center;
+    background-color : #ffe5b4  ;
+    /*#B0E0E6/#E6E6D4/#E6E6D4/#EEE6FF/*#F5FFFA/*#ffe5b4*/;
+}
+
+h1{
+    background-color : #081b31;
+    color : white;
+    height : 5rem;
+    /* To make vertically center we have a trickwhich is used below what ever the height of text give the same line-height */
+    line-height : 5rem;
+}
+
+button{
+    position : absolute;
+    left : 0;
+    /* top:50%; */
+    /* transform : translateY(-50%); */
+    background-color : #081b31;
+    color : white;
+    font-size :2rem;
+    height : 4rem;
+    line-height : 4rem;
+    border : 2px solid white;
+    text-align : left;
+    border-radius : 10px;
+    margin : 2px;
+
+}
+
+
+.choice{
+    height : 200px;
+    width : 200px;
+    border-radius : 50%;
+    display : flex;
+    justify-content : center;
+    align-items :center;
+}
+
+.choice:hover{
+    cursor : pointer;
+    background-color:black;
+}
+
+img{
+    height : 150px;
+    width : 150px;
+    /* To not make the images shrink we use object-fit property we give the value as cover */
+    object-fit :cover;
+    border-radius : 50%;
+    border : 2px solid #081b31;
+}
+
+.choices{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    gap : 3rem;
+    margin-top : 5rem;
+}
+
+.score-board{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size : 2rem;
+    margin-top : 3 rem;
+    gap : 5rem;
+}
+
+#user-score, #comp-score{
+    font-size : 4rem;
+}
+
+.msg-container{
+    margin-top : 5rem;
+}
+
+#msg{
+    background-color : #081b31;
+    color : #fff;
+    font-size : 2rem;
+    display : inline;
+    padding : 1rem;
+    border-radius : 1rem;
+}
+
